@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="demo_types">
+        <item>النوع</item>
+        <item>ذكر </item>
+        <item>أنثى </item>
+    </string-array>
+    <string-array name="City">
+        <item>المدينه</item>
+        <item>الرياض</item>
+    </string-array>
+    <string-array name="code_phone">
+        <item>+966</item>
+        <item>+971</item>
+        <item>+216</item>
+    </string-array>
+    <string-array name="demo_msg">
+        <item>إدارة التطبيق </item>
+    </string-array>
+</resources>

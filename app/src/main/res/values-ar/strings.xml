@@ -1,0 +1,300 @@
+<resources>
+    <string name="app_name">اخدمني عالسريع</string>
+    <string name="txt_requestorder">الخدمات</string>
+    <string name="txt_register">تسجيل</string>
+    <string name="orderRecieved">تم إستلام الطلب </string>
+    <string name="save">حفظ</string>
+    <string name="notavailable">غير متوفر</string>
+    <string name="total_cost">القيمة الاجمالية</string>
+    <string name="translate_en">EN</string>
+    <string name="request_date">تاريخ الطلب</string>
+    <string name="request_time">وقت الطلب</string>
+    <string name="request_delivering_time">وقت تسليم الطلب</string>
+    <string name="translate_ar">ع</string>
+    <string name="mobile">الجوال</string>
+    <string name="somm_points">إجمالي النقاط</string>
+    <string name="_point">إجمالي النقاط</string>
+    <string name="_whats">تواصل معنا واتساب</string>
+    <string name="txt_text">خدمات مجانية من التطبيق للعملاء فقط حاسب صاحب الخدمة حسب اتفاقك معه</string>
+    <!--  validation strings in english remember to arabic -->
+    <string name="validation_name_length"> ادخل الاسم كاملا تحتوي علي اقل 6 حروف</string>
+    <string name="nonEmpty">ادخل المطلوب</string>
+    <string name="validation_number_length">ادخل الباسورد حد اقل 4 حروف </string>
+    <string name="validation_mobile">ادخل رقم جوال صالح </string>
+    <string name="validation_valid_email">ادخل  ايميل صالح </string>
+    <string name="validation_date">التاريخ يجب ان يكون  حاليا</string>
+    <string name="validation_type">اختر النوع </string>
+    <string name="validation_valid_password">ادخل كلمة سر تحتوي علي 8 خانات </string>
+    <string name="validation_address">ادخل العنوان </string>
+    <string name="validation_success">Validation succeeded! \nThat was easy, wasn\'t it?</string>
+    <string name="count">Please enter number only</string>
+    <string name="min_number">Please enter number greater than 5.5</string>
+    <string name="Vlaid_match_password">كلمةالسر غير متطابقه</string>
+    <string name="Valid_IBAN">ادخل ايبان طوله 34 خانه </string>
+    <!--Request detail 1-->
+    <string name="txt_requestno"> رقم الطلب </string>
+    <string name="txt_serviceno"> عدد الخدمات  </string>
+    <string name="txt_servicecost">قيمة الخدمه</string>
+    <string name="txt_delivercost">قيمة التوصيل</string>
+    <string name="txt_discount">الخصم من نقاطي</string>
+
+    <string name="txt_address">العنوان</string>
+    <string name="txtnewrequest">إضافة طلب جديد</string>
+    <string name="txt_cancelrequest">إلغاء الطلب</string>
+    <string name="txt_okrequest">تم إستلام الطلب</string>
+    <string name="txt_willinform">جاري تنفيذ طلبك رقم </string>
+    <string name="txt_ordernew"> طلبك رقم %1$s بقائمة الانتظار</string>
+    <string name="txt_orderdelevred">تم تنفيذ طلبك رقم %1$s</string>
+
+    <!--String relaed to  register as  service provider -->
+    <string name="etFNameD"> الاسم كاملا </string>
+    <string name="etIdNumberD">رقم الهويه</string>
+    <string name="etNumberD">موبايل</string>
+    <string name="etEmailD">البريد الالكتروني </string>>
+    <string name="etCarNameD">اسم السياره</string>
+    <string name="etCarModelD">موديل السياره</string>
+    <string name="etCarPlateD">رقم اللوحه</string>
+    <string name="etAddressD">لعنوان</string>
+    <string name="btnREgisterD">متابعه</string>
+    <string name="etSilImage">لتوثيق حسابك..فضلا قم بإرفاق المستندات التالية:</string>
+    <string name="etIban">الايبان</string>
+    <string name="etPhotoCar"> لتوثيق حسابك ..فضلا قم بتصوير سيارتك:  </string>
+    <string name="CopyRigh"> بتسجيللك في تطبيق اخدمني عالسريع  فأنت توافق علي   </string>
+    <string name="txt_terms"> الشروط والاحكام</string>
+    <string name="choose_terms">وافق علي  الشروط والاحكام لتتمكن من إكمال التسجيل </string>
+    <string name="notify_desk">  اشعارات سطح لمكتب </string>
+    <string name="etObserv">ارسال ملاحظه لمقدم الخدمه </string>
+    <string name="TXT_NOTE">هذه الخدمه متاح فقط في الرياض حاليا</string>
+    <string name="etIBAN">ايبان</string>
+    <string name="etId">صورة الهوية الوطنيه/ الاقامه</string>
+    <string name="etDrivlic">رخصة القياده</string>
+    <string name="etCarLic">رخصة المركبه</string>
+    <string name="PersonalPicture">صورة شخصية</string>
+    <string name="frontCar">صورة من الامام</string>
+    <string name="backCar">صورة من الخلف</string>
+    <!--  slider -->
+
+    <string name="txtintro1">في خطوات يسيره وسهله قم بالتسجيل الان بالتطبيق </string>
+    <string name="txtintro2">من خلال التطبيق حدد موقعك من علي الخريطه </string>
+    <string name="txtinto3">من خلا قائمة الخدمات  قم باختيار وكتابة  طلبك</string>
+    <string name="txtintro4">انتظر ثوان معدودة!!! حتي يقوم مقدم الخدمه باستقبال طلبك </string>
+    <string name="txtintro5">تهانينا لك!!! قم باستقبال طلبك وقم بالتقييم </string>
+    <string name="orders">الطلبات</string>
+
+    <!-- Strings related to login -->
+    <string name="text_signin">دخول</string>
+    <string name="text_register">ليس لديك حساب ؟   </string>
+    <string name="text_register_now"> اشترك الان </string>
+    <string name="text_username">البريد الاكتروني </string>
+    <string name="text_password">كلمة المرور </string>
+    <string name="text_forgetpass">نسيت كلمة المرور </string>
+    <string name="text_code_n_password">C O D E   &amp;  P A S S W O R D</string>
+    <string name="text_password_sent">"We've sent you a text message with Registration Code"</string>
+    <string name="text_submit">ارسال الطلب </string>
+    <string name="text_talabat">طلبات الأعمال</string>
+    <string name="txt_follow">تابعنا على :</string>
+    <string name="text_fname_caps">الاسم كاملا</string>
+    <string name="text_gnder_caps">الجنس</string>
+    <string name="text_email">الايمل</string>
+    <string name="text_number">الموبايل</string>
+    <string name="text_passs">الباسورد</string>
+    <string name="text_address">العنوان</string>
+    <string name="text_retype_password">إعادة كتابة الباسورد </string>
+    <string name="text_emergency_number">EMERGENCY CONTACT NUMBER</string>
+    <string name="text_bio">BIO</string>
+    <string name="text_zip">ZIPCODE</string>
+    <string name="text_reg_code">Registration Code</string>
+    <string name="text_create_password">Create Your Password</string>
+    <string name="subject"> الموضوع </string>
+    <string name="txt"> نص الرسالة </string>
+    <string name="txt_response"> رد على الرسالة</string>
+    <string name="abotuTax">•	التطبيق  تفاعلي ديناميكي يقدم خدمات توصيل للشركات والمؤسسات والصيدليات والبقالات وغيره من الخدمات     وقابل للتحديث  .. وسيتم تصميم وبرمجة التطبيق  باستخدام أفضل التقنيات الحديثة </string>
+
+    <string name="txt_date">تاريخ</string>
+    <string name="invitationTxt">رقم الدعوة الخاص بك</string>
+    <string name="prompt_email">البريد</string>
+    <string name="prompt_password">كلمة المرور</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">الايميل غير صحيح</string>
+    <string name="error_invalid_password">كلمة السر غير صحيحه</string>
+    <string name="error_incorrect_password">كلمة السر غير صحيحه</string>
+    <string name="error_field_required">هذامطلوب </string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- titles of activity -->
+    <string name="item_create_account">انشاء حساب</string>
+
+    <string name="item_Myprofile">حسابي</string>
+    <string name="item_Home">الرئيسيه</string>
+    <string name="item_Myorders">طلباتي</string>
+    <string name="item_Myorder">طلبات </string>
+    <string name="item_cobon">نقاطي</string>
+    <string name="my_inbox"> بريدي</string>
+    <string name="cobon">لديك خصم علي قيمة التوصيل بنسبة%1$s في المائه</string>
+    <string name="instructions">تعليمات الاستخدام</string>
+    <string name="about">عن التطبيق</string>
+    <string name="callfriends">ادع اصدقائك</string>
+    <string name="serviceprovider">التسجيل كمقدم خدمه</string>
+    <string name="sgnout">خروج</string>
+    <string name="title_activity_main">اخدمني عالسريع</string>
+    <string name="title_activity_home_">الصفحه الرئيسيه</string>
+
+    <string name="item_contact">اتصل بنا</string>
+    <string name="Tab1_complain">شكوي</string>
+    <string name="Tab2_suggest">اقتراح</string>>
+    <string name="Tab3_inquire">استفسار</string>
+    <string name="app_intro_skip">تخطي</string>
+    <string name="text_forgot_password">سيتم إرسال كلمة المرور بالبريد الإلكتروني إلى بريدك الإلكتروني المسجل</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">إعدادات</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_driver_">Driver_Activity</string>
+    <string name="large_text">
+
+    </string>
+
+    <!--  REquest new order-->
+    <string name="txt_disqount_points">خصم التكلفه من رصيد نقاطي </string>
+    <string name="txt_Cobon">هل لديك كوبون خصم؟ </string>
+    <string name="et_entcobon">ادخل كوبون الخصم الخاص بك </string>
+    <string name="txt_noservice">عدد الخدمات </string>
+    <string name="et_service">خدمه 0</string>
+    <string name="et_servicecost">25 ريال </string>
+    <string name="et_delivercost">0.00 ريال</string>
+    <string name="txt_totalcost">القيمة المطلوبه  </string>
+    <string name="txt_totalcostPoint">القيمة المطلوبه بالنقاط</string>
+    <string name="et_totalcostt">0 ريال</string>
+    <string name="text_submitcobon">تأكيد</string>
+    <string name="txt_phone">الجوال </string>
+    <string name="txt_email">الايميل  </string>
+    <string name="tab_currentorder">طلبات حاليه</string>
+    <string name="tab_nextorder">طلبات سابقه</string>
+    <string name="ؤ">ريال</string>
+    <string name="service">خدمه</string>
+    <string name="et_disountcost">00</string>
+    <string name="agree">موافق</string>
+    <string name="disagree">غير موافق</string>
+    <string name="ConfirmTitle">تأكيد الطلب</string>
+    <string name="RquestAccept">عزيزي العميل </string>
+    <string name="rewuestNO">تم استلام  طلبك بنجاح  %1$s وسوف يصللك اشعار فور  قبول مقدم الخدمه لطلبك .  </string>
+    <string name="rewuestYes">تم استلام  طلبك رقم %1$s </string>
+    <string name="RequestDetai">تفاصيل الطلب</string>
+    <string name="showPassword">إظهار كلمة السر </string>
+    <string name="txtcancel"> الغاء </string>
+
+    <string name="myorderstring">طلب رقم </string>
+    <string name="New">جديد </string>
+    <string name="Inprogress">قيد  التنفيذ</string>
+    <string name="Canceled">تم الالغاء</string>
+    <string name="ryal"> %1$sريال </string>
+
+    <string name="carkind">النوع  </string>
+    <string name="carnumber">رقم  اللوحه: </string>
+    <string name="carColor"> اللون </string>
+    <string name="CarModel">الموديل:   </string>
+    <string name="callNow">اتصل الان </string>
+
+    <string name="ordercanceledmessage">قد تم إلغاء طلبك رقم  </string>
+    <string name="messagespinner">من فضللك تأكد من  اختيارك للجنس والمدينه </string>
+    <string name="messagesucess">تم بنجاح </string>
+    <string name="serviceprovidedone">م تسجيل طلبك  بنجاح وسيتم مراجعة طلبك وارسال التأكيد علي الايميل الذي ادخلته في الطلب </string>
+<string name="servicprovidererror">حدث خطأ من فضللك تأكد من ان الايميل  لم يسجل من قبل وقم بالتسجيل مره اخر </string>
+<string name="RateDriver">لا يمكنك تقييم السائق لانك لم تفتح اشعار قبوله  لطلبك مع العلم  انه تم تغيير حالة الطلب لتم الاستلام</string>
+<string name="sendinanothertime">إرسال في وقت لاحق</string>
+    <string name="WriteOrdeDEscription">اكتب تفاصيل طلبك هنا</string>
+    <string name="Ryal">  ريال </string>
+    <string name="error_happen">حدث خطأ من فضللك حاول مرة اخري </string>
+   <string name="authontiation">انتهت صلاحية دخوللك للتطبيق ادخل اسم المستخدم وكلمة السر مرة اخري </string>
+    <string name="servererror">حدث خطأ بالخادم اتصل  بالادارة</string>
+    <string name="networkerror">حدث خطأ بالاتصال بالانترنت تأكد من وجود انترنت </string>
+    <string name="decription">يرجى ملء جميع الحقول الوصف</string>
+    <string name="serviceerror">يرجى اختيار على الأقل خدمة واحدة</string>
+    <string name="timeouterror"> وقت ارسال البيانات اكث من المعتاداتصال الانترنت بطيئ</string>
+    <string name="usernameandpassword">من فضللك تأكد من اسم المستخدم وكلمة السر </string>
+    
+    <string name="call_whats">لدعوة اصدقائك علي واتس اب اضغط هنا </string>
+    <string name="call_face">لدعوة اصدقائك علي فيس بوك اضغط هنا </string>
+    <string name="call_instg">لدعوة اصدقائك علي انستجرام  اضغط هنا </string>
+    <string name="call_twit">لدعوة اصدقائك علي تويتر اضغط هنا </string>
+    <string name="call_public">لدعوة اصدقائك علي  </string>
+    <string name="invit_friend"> دعوة صديق </string>
+    <string name="invit_accept_friend">قبول دعوة صديق</string>
+    <string name="point_canceled"> خصومات </string>
+    <string name="point_perOrder"> نقاط مكتسبة من الطلبات </string>
+    <string name="txtServerProvider"> راسل مقدم الخدمة </string>
+    <string name="invitation_message">هذا التطبيق رائع يمكنك تجربته عن طريق هذا الرابط</string>
+    <!--  my points-->
+    <string name="mypoint_total_ppoint">اجمالي النقاط %1$s  نقطه </string>
+    <string name="mypoint_cobon">كوبون</string>
+    <string name="mypoint_cobons">كوبونات</string>
+    <string name="mypoint_sells">مشترياتي </string>
+    <string name="mypoints_call">ادع اصدقائك</string>
+    <string name="mypoint_total">المجموع</string>
+    <string name="mpoint_increase">زد نقاطك </string>
+    <string name="list_point">نقطة</string>
+    <string name="point"> 20 نقطة </string>
+    <!--  Srvice provider-->
+    <string name="service_title">للتسجيل معنا كمقدم خدمه يرجي تحميل تطبيق   اخدمني عالسريع نسخة منفذي الخدمه</string>
+    <string name="service_android">حمل نسخة اخدمني عالسريع للاندرويد</string>
+    <string name="service_ios">حمل نسخة  اخدمني عالسريع  للايفون  </string>
+    <string name="service_continue">متابعة</string>
+    <string name="rolesLogin">عزيزي العميل غير مصرح للك باستخدام هذا التطبيق مع هذه البيانات يمكنك تحميل تطبيق الخاص بالسائق</string>
+
+    <string name="rate_txt">تقييم</string>
+    <string name="Delivered">تم التوصيل</string>
+    <string name="edit_Request">تعديل الطلب</string>
+    <string name="txt_hint">الحسن بن علي الروضة الرياض 31213</string>
+
+    <string name="txtinvit"> أدع اصدقاءك لزيادة رصيدك</string>
+    <string name="newO">طلب جديد </string>
+    <string name="lien_share">رابط التحميل: </string>
+    <string name="lien_msg">قم بنسخ هذا الرابط وإرساله إلى أصدقائك لتسجيل عبر هذا الرابط</string>
+
+    <string name="from">من:</string>
+    <string name="to">الى:</string>
+    <string name="txt_share">شارك</string>
+    <string name="recieved_mails"> بريد وارد </string>
+    <string name="sent_mails"> بريد مرسل</string>
+    <string name="txt_copier">نسخ</string>
+    <string name="txt_confirm_cancel"> هل أنت متأكد أنك تريد إلغاء هذاالطلب؟ </string>
+    <string name="ordercanceled">الغاء الطلب</string>
+    <string name="txt_filter">فرز</string>
+    <string name="txt_valider">تأكيد</string>
+    <string name="txt_service_type">نوع الخدمة</string>
+    <string name="txt_store_name">إسم المتجر</string>
+    <string name="txt_rate_client">تقييم العميل</string>
+    <string name="txt_order_request">ترتيب الطلبات</string>
+    <string name="txt_service_provider">مقدم خدمات</string>
+    <string name="txt_search">البحث بحرفين أو أكثر من اسم أو إيميل المستخدم</string>
+    <string name="txt_photos">اختر صورة أو أكثر</string>
+    <string name="messageOrderNum">عميل للطلب رقم </string>
+    <string name="txtHour">ساعة, </string>
+    <string name="txtDay">يوم, </string>
+    <string name="txtMin">دقيقة </string>
+    <string name="invalidePhoneNumber">رقم الهاتف غير صحيح </string>
+    <string name="txtaccept"> تم قبول طلبك رقم</string>
+    <string name="olderPassword">يرجى إعادة كتابة كلمة المرور القديمة</string>
+    <string name="txt_loading">تحميل...</string>
+    <string name="txt_loading_position">تحديد الموقع...</string>
+    <string name="copied"> تم النسخ! </string>
+    <string name="man">ذكر </string>
+    <string name="woman">أنثى </string>
+    <string name="position"> الموقع الحالي </string>
+    <string name="messageOrderNumDriver">منفذالخدمه للطلب رقم</string>
+    <string name="code_invit">أدخل كود الدعوة إن وجد لربح نقاط</string>
+    <string name="code_invit_not_exist">كود الدعوة غير موجود</string>
+    <string name="text_havent">لا يوجد</string>
+    <string name="invitCode">أدخل كود الدعوة ...</string>
+    <string name="txt_invit">حمل التطبيق وإستخدم الكود %1$s بعد  التسجيل واربح نقاط استبدلها بقيمة توصيل الطلبات .</string>
+<!--  -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="salek">سالك</string>
+    <string name="create_account">Create Account</string>
+    <string name="language">Language</string>
+</resources>

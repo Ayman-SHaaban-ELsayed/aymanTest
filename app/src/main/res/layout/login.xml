@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/login_bg"
+    android:fitsSystemWindows="true" >
+
+
+    <Button
+        android:text="AR"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/en"
+        android:id="@+id/trans_en"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:srcCompat="@android:color/transparent"
+        android:id="@+id/imageView3"
+        android:minHeight="164dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="121dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:paddingBottom="36dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmail"
+            android:drawableStart="@mipmap/user"
+            android:textSize="@dimen/activity_size"
+            android:drawablePadding="@dimen/activity_drawable_padding"
+            android:hint="@string/txt_email"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@mipmap/user"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_size"
+            android:inputType="textPassword"
+            android:drawableStart="@mipmap/lock"
+            android:id="@+id/etPassword"
+            android:drawablePadding="@dimen/activity_drawable_padding"
+            android:hint="@string/text_password"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@mipmap/lock" />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp">
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switch_gprs"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="10dp"
+                android:checked="true"
+                android:textColor="@color/black"
+                android:textColorLink="@color/appcolo"
+                android:theme="@style/BrandedSwitch"
+                android:layout_alignParentLeft="true" />
+
+
+
+            <TextView
+                android:layout_toEndOf="@+id/switch_gprs"
+                android:id="@+id/txt_c"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:text="@string/notify_desk"
+                android:layout_toRightOf="@+id/switch_gprs"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical" />
+
+
+
+        </RelativeLayout>
+
+        <Button
+            android:text="@string/text_signin"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/raduis_corner_green"
+            android:id="@+id/btnSignIn"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:textColor="@android:color/background_light" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/text_forgetpass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnForgetPassword"
+
+                android:textSize="@dimen/activity_size"
+
+                android:textColor="@android:color/holo_blue_dark" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/holo_blue_dark" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:id="@+id/btnRegister"
+            android:clickable="true"
+            android:background="@drawable/raduis_corner"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_register"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:text="@string/text_register_now"
+                android:textColor="@color/colorYellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:textStyle="bold"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

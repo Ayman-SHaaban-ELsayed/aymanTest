@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    >
+
+    <!-- make circular image -->
+    <art4moslm.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/default_user"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/white_circled_shape"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        android:paddingStart="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/DriverNm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:text="محمد أحمد المحمودي "
+
+                android:gravity="center_horizontal|center_vertical"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:stepSize=".5"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:numStars="5"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:layout_gravity="center_vertical|center"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/DriverNm"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:id="@+id/etObserv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etObserv"
+                android:lines="4"
+                android:gravity="top"
+                android:background="@drawable/rectangle"
+                android:layout_marginBottom="10dp"
+                android:textSize="12dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:paddingTop="7dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/btnsend"
+                android:text="@string/text_submit"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_alignBottom="@+id/etObserv"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/white"
+                android:background="@drawable/raduis_corner_green"
+
+                android:layout_marginBottom="16dp"
+
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="art4moslm.info.akhdmny.fragments.contacts.TabFragment1">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10.0dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/etFNameD"
+                android:background="@drawable/rectangle"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="6dp"
+                android:paddingStart="6dp"
+                android:maxLines="1"
+                android:id="@+id/et_FullNames"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="6dp"
+                android:paddingStart="6dp"
+                android:hint="@string/txt_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:id="@+id/et_Emails"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/txt_phone"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:background="@drawable/rectangle"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="6dp"
+                android:paddingStart="6dp"
+                android:id="@+id/et_PhoneNumbers"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:background="@drawable/rectangle"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="6dp"
+                android:paddingStart="6dp"
+                android:lineSpacingExtra="8sp"
+                android:maxLines="15"
+                android:minHeight="100dp"
+                android:id="@+id/et_FeedBacks"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/agree"
+                android:text="@string/text_submit"
+                android:textColor="@android:color/white"
+                android:id="@+id/btn_SendComplains"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

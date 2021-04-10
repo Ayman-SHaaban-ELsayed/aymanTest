@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/color_green"
+    tools:context="art4moslm.info.akhdmny.fragments.DriverFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+        <RelativeLayout
+            android:id="@+id/map_with_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="6dp">
+                <include android:id="@+id/driver_data"
+                    layout="@layout/driverlayout"
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_driver_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_green"
+                android:drawableStart="@drawable/ic_action_check_circle"
+                android:drawableLeft="@drawable/ic_action_check_circle"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:textColor="@android:color/white"
+                android:text="@string/servererror"
+                android:paddingLeft="7dp"
+                android:paddingStart="7dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+</FrameLayout>

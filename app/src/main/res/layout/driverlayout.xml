@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <art4moslm.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imDriver"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/user_profile_image_background"
+        android:elevation="4dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/user"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/white_circled_shape"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        android:paddingStart="8dp">
+        <RelativeLayout
+            android:id="@+id/driver_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:id="@+id/DriverName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mohammed ali"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="24dp" />
+
+            <RatingBar
+                android:id="@+id/ratingDriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/DriverName1"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:clickable="false"
+                android:numStars="5"
+                android:stepSize=".5" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_below="@+id/ratingDriver"
+    android:background="@color/line"
+    android:layout_height="1dp"
+    android:layout_marginBottom="5dp">
+
+</LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linearData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/driver_info">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="6dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="5dp"
+                            android:text="@string/carkind"
+                            android:textColor="@color/colorBlue" />
+                        <TextView
+                            android:id="@+id/txt_carKind"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="5dp"
+                            android:text="@string/notavailable"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:text="@string/carColor"
+        android:textColor="@color/colorBlue"
+  />
+    <TextView
+        android:id="@+id/txt_carColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:text="@string/notavailable"
+        android:textColor="@color/black"
+      />
+</LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="5dp"
+                            android:text="@string/carnumber"
+                            android:textColor="@color/colorBlue" />
+                        <TextView
+                            android:id="@+id/txt_CarNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="5dp"
+                            android:text="@string/notavailable"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:layout_gravity="right|end"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="5dp"
+        android:text="@string/txt_phone"
+        android:textColor="@color/colorBlue"
+        android:paddingRight="5dp" />
+    <TextView
+        android:id="@+id/txt_carMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="5dp"
+        android:text="@string/notavailable"
+        android:textColor="@color/black"
+        android:paddingRight="5dp" />
+</LinearLayout>
+
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:text="@string/CarModel"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:id="@+id/txt_carmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:text="@string/notavailable"
+        android:textColor="@color/black" />
+</LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/last_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_below="@+id/linearData">
+
+            <Button
+                android:id="@+id/btn_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+
+
+                android:background="@color/app_colour"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:paddingEnd="70dp"
+                android:paddingStart="80dp"
+                android:text="@string/rate_txt"
+                android:layout_below="@+id/btn_Call"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:theme="@style/styleYellow"
+                android:visibility="gone"
+                android:paddingLeft="80dp"
+                android:paddingRight="70dp"
+                android:drawableLeft="@android:drawable/btn_star_big_on" />
+
+            <Button
+                android:id="@+id/btn_Call"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/round_button"
+                android:paddingStart="80dp"
+                android:paddingEnd="70dp"
+                android:textStyle="bold"
+                android:drawableStart="@mipmap/contact"
+                android:drawableTint="@android:color/white"
+
+                android:textSize="12dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/callNow"
+                android:textColor="@color/white"
+                android:drawableLeft="@mipmap/contact"
+                android:paddingRight="70dp"
+                android:paddingLeft="80dp" />
+
+            <Button
+                android:id="@+id/btn_text"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/round_button_yellow"
+                android:paddingStart="80dp"
+                android:paddingEnd="70dp"
+                android:textStyle="bold"
+                android:drawableStart="@mipmap/message"
+                android:layout_below="@+id/btn_Call"
+                android:textSize="12dp"
+                android:drawableTint="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:text="@string/txtServerProvider"
+                android:textColor="@color/white"
+                android:drawableLeft="@mipmap/message"
+                android:paddingRight="70dp"
+                android:paddingLeft="80dp" />
+
+            <Button
+                android:id="@+id/btnDelovered"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingStart="80dp"
+                android:paddingEnd="70dp"
+                android:gravity="center"
+                android:duplicateParentState="true"
+                android:layout_gravity="center"
+                 android:textSize="12dp"
+                android:background="@drawable/round_button_green"
+                android:drawableStart="@drawable/ic_action_thumb_up"
+                android:text="@string/txt_okrequest"
+                android:textColor="@color/white"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/btn_text"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="80dp"
+                android:paddingRight="70dp"
+                android:drawableLeft="@drawable/ic_action_thumb_up" />
+
+            <Button
+                android:id="@+id/btncancelrequest"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="35dp"
+                android:background="@drawable/round_button"
+                android:drawableStart="@drawable/ic_action_cancel"
+                android:paddingStart="80dp"
+                android:paddingEnd="70dp"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:duplicateParentState="true"
+                android:layout_gravity="center"
+                android:text="@string/txt_cancelrequest"
+                android:textColor="@color/white"
+                android:layout_below="@+id/btnDelovered"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="7dp"
+                android:drawableLeft="@drawable/ic_action_cancel"
+                android:paddingLeft="80dp"
+                android:paddingRight="70dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

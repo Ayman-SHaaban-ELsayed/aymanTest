@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DA4A49</color>
+    <color name="colorPrimaryDark">#DA4A49</color>
+    <color name="colorAccent">#DA4A49</color>
+    <color name="ofWhite">#fdfdfd</color>
+    <color name="app_colour">#F6B80B</color>
+    <color name="gray">#ff888888</color>
+    <color name="black">#ff000000</color>
+    <color name="color_text">#ff000000</color>
+    <color name="white">#ffffff</color>
+    <color name="color_app_gray">#ff999999</color>
+    <color name="appcolo">#216fed</color>
+    <color name="color_gray">#ebeef4</color>
+
+    <color name="color_green">#199e73</color>
+    <color name="colorBlue">#0b5592</color>
+    <color name="colororange">#eac543</color>
+    <color name="confirmColor">#c7a53a</color>
+    <color name="totalConfirmColor">#bd7c08</color>
+    <color name="colorRed">#c83c3b</color>
+    <color name="colorred">#9C0816</color>
+    <color name="line">#E5E7E6</color>
+
+
+    <color name="colorYellow">#eac543</color>
+    <color name="colorGreen">#119f63</color>
+    <color name="color_whgra">#f3f3f3</color>
+    <color name="color_text_dark">#ff676767</color>
+
+
+    <color name="colorconfirm">#3ca5e8</color>
+    <color name="colorRequest">#45c9a4</color>
+    <color name="txtcolor">#e7f57e</color>
+    <color name="text_blue">#538ABA</color>
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+</resources>

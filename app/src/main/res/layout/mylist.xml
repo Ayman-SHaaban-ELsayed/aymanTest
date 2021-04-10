@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+    <!--   http://www.androidinterview.com/android-custom-listview-with-image-and-text-using-arrayadapter/-->
+
+    <TextView
+        android:id="@+id/serviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_green"
+        android:textSize="16sp"
+        android:text="اسواق العثيم"
+        />
+    <TextView
+        android:id="@+id/serviceDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton_white"
+        android:inputType="textMultiLine"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="fffff"/>
+</LinearLayout>
